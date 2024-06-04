@@ -1,0 +1,25 @@
+<html>
+<head>
+    
+    <style>
+        /* Simple grid layout */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 columns */
+            gap: 0px; /* Gap between images */
+        }
+        .gallery img {
+            width: 100%; /* Make images fill the grid cells */
+            height: auto; /* Maintain aspect ratio */
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <img src="cat.jpg" >
+        <img src="pil.jfif" >
+        <img src="yam.webp" >
+        <!-- Add more images as needed -->
+    </div>
+</body>
+</html>
